@@ -155,7 +155,7 @@ export default function Home() {
       <div className="row">
         <div className="col-md-6 p-1">
           <div className="doughnut m-2 bg-light py-1 px-3">
-            <Three />
+            <h3>Doughnut</h3>
           </div> 
         </div>
         <div className="col-md-6"></div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Navbar.css'
-import { Link } from 'react-router-dom'
+import {  NavLink } from 'react-router-dom'
 import logo from '../../Images/logo.jpg'
 
 export default function Navbar() {
@@ -14,7 +14,7 @@ export default function Navbar() {
           <ul>
             <li className='list-unstyled'>
               <i className="fa-solid fa-table-columns pe-3 fs-5 text-success"></i>
-              <Link className='text-decoration-none text-success' to="">Dashboard</Link>
+              <NavLinkLink activeClassName='' className='text-decoration-none text-success' to="">Dashboard</NavLinkLink>
             </li>
             <li className='list-unstyled'>
             <i className="fa-solid fa-diagram-project pe-3 fs-5 text-success"></i>
@@ -43,40 +43,40 @@ export default function Navbar() {
           <div className="sidebar-menu">
             <ul className="menu-list">
               <li className="menu-item list-unstyled">
-                <Link to="/" className='menu-link active text-decoration-none'>
-                  <span className='menu-link-icon fa-solid fa-table-columns'></span>
-                  <span className='menu-link-text'>Dashboard</span>
-                </Link>
+                <NavLink to="/"  className=' menu-link text-decoration-none'>
+                  <span  className='menu-link-icon fa-solid fa-table-columns'></span>
+                  <span  className='menu-link-text'>Dashboard</span>
+                </NavLink>
               </li>
               <li className="menu-item list-unstyled">
-                <Link to="/" className='menu-link text-decoration-none'>
-                  <span className='menu-link-icon fa-solid fa-diagram-project'></span>
-                  <span className='menu-link-text'>Property</span>
-                </Link>
+                <NavLink to="property"  className=' menu-link text-decoration-none'>
+                  <span  className='menu-link-icon fa-solid fa-diagram-project'></span>
+                  <span  className='menu-link-text'>Property</span>
+                </NavLink>
               </li>
               <li className="menu-item list-unstyled">
-                <Link to="/" className='menu-link text-decoration-none'>
+                <NavLink to="users"  className=' menu-link text-decoration-none'>
                   <span className='menu-link-icon fa-solid fa-users'></span>
                   <span className='menu-link-text'>Users</span>
-                </Link>
+                </NavLink>
               </li>
               <li className="menu-item list-unstyled">
-                <Link to="/" className='menu-link text-decoration-none'>
+                <NavLink to="/"  className=' menu-link text-decoration-none'>
                   <span className='menu-link-icon fa-solid fa-chart-simple'></span>
                   <span className='menu-link-text'>Analytics</span>
-                </Link>
+                </NavLink>
               </li>
               <li className="menu-item list-unstyled">
-                <Link to="/" className='menu-link text-decoration-none'>
+                <NavLink to="/"  className=' menu-link text-decoration-none'>
                   <span className='menu-link-icon fa-solid fa-clock-rotate-left'></span>
                   <span className='menu-link-text'>Pending</span>
-                </Link>
+                </NavLink>
               </li>
               <li className="menu-item list-unstyled">
-                <Link to="/" className='menu-link text-decoration-none'>
+                <NavLink to="/"  className=' menu-link text-decoration-none'>
                   <span className='menu-link-icon fa-solid fa-solid fa-user'></span>
                   <span className='menu-link-text'>My Profile</span>
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </div>

@@ -1,0 +1,27 @@
+.property
+{
+    /* background-color: aqua; */
+    width: 80%;
+    margin: auto;
+    margin-left: 300px;
+}
+
+.property .row input::placeholder
+{
+    padding-left: 30px;
+}
+
+.item button
+{
+    border: none;
+    background-color: transparent;
+    color: #6C63FF;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.item h5
+{
+    color: #6C63FF;
+    margin-top: 10px;
+}
