@@ -44,7 +44,7 @@
     column-gap: 11px;
     padding: 12px;
     border-radius: 12px;
-    color: black;
+    color: #808191;
 }
 
 /* .active-link
@@ -55,7 +55,8 @@
 
 .active
 {
-    background-color: #ccc !important;
+    background-color: #6C63FF !important;
+    color: #FFFFFF;
     box-shadow: 0px 0px 4px rgba(71, 91, 232, 0.04) !important;
 }
 

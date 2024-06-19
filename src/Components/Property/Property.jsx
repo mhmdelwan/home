@@ -16,7 +16,7 @@ export default function Property() {
     <div className="row justify-content-between">
         <div className="col-md-5 position-relative">
           <i class="fa-solid fa-magnifying-glass position-absolute p-2 mt-1"></i>
-          <input type="text" className='w-75 py-1 rounded-1 border-0' placeholder='search properties for customer etc' />
+          <input type="text" className='w-75 py-1 rounded-1 border-0 bg-light' placeholder='search properties for customer etc' />
         </div>
         <div className="col-md-3 d-flex align-items-center">
           <div className="bell me-4">

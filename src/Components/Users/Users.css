@@ -1,0 +1,55 @@
+.users
+{
+    /* background-color: aqua; */
+    width: 80%;
+    margin: auto;
+    margin-left: 300px;
+}
+
+.users input
+{
+    background-color: #f4f4f4;
+}
+
+.users .row input::placeholder
+{
+    padding-left: 30px;
+}
+
+.users i
+{
+    margin-top: 12px;
+}
+
+.btn button
+{
+    padding: 10px 20px;
+    border: none;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.btn .btn-sub
+{
+    background-color: #6C63FF;
+}
+
+.dashboard
+{
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.addUser
+{
+    background-color: #6C63FF;
+    border-radius: 5px;
+}
+
+.addUser .menu-link-text
+{
+    letter-spacing: 1px;
+    font-weight: 700;
+}
