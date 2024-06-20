@@ -1,21 +1,29 @@
-/* .home
-{
-    width: 84%;
+.home {
+    width: 82%;
     margin-left: auto;
     padding: 10px;
-} */
-
-
-.home
-{
-    background-color: aqua;
-    width: 80%;
-    margin: auto;
-    margin-left: 300px;
 }
 
-.home .row input::placeholder
-{
+
+/* .home {
+    background-color: rgb(240, 240, 240);
+    width: 70;
+    margin: auto;
+    margin-left: auto;
+} */
+
+.home .row input::placeholder {
     padding-left: 30px;
 }
 
+.item {
+    border-radius: 10px;
+}
+
+.content-item h4 {
+    font-size: 17px;
+}
+
+.content-item p {
+    font-size: 14px;
+}

@@ -13,7 +13,7 @@ import home9 from '../../Images/home9.png'
 export default function Property() {
   return (
     <div className='property mt-3'>
-    <div className="row justify-content-between">
+    <div className="row justify-content-between ">
         <div className="col-md-5 position-relative">
           <i class="fa-solid fa-magnifying-glass position-absolute p-2 mt-1"></i>
           <input type="text" className='w-75 py-1 rounded-1 border-0 bg-light' placeholder='search properties for customer etc' />
@@ -38,9 +38,9 @@ export default function Property() {
     
 
 
-      <div className="items">
-        <div className="row">
-          <div className="col-md-4 p-1">
+      <div className="items p-3">
+        <div className="row g-3">
+          <div className="col-md-4 rounded-4 ">
             <div className="item bg-light ">
               <div className="item-img">
                 <img className='w-100' src={home1} alt="" />
@@ -60,7 +60,7 @@ export default function Property() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 p-1">
+          <div className="col-md-4 rounded-4 ">
             <div className="item bg-light ">
               <div className="item-img">
                 <img className='w-100' src={home2} alt="" />
@@ -80,7 +80,7 @@ export default function Property() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 p-1">
+          <div className="col-md-4 rounded-4 ">
             <div className="item bg-light ">
               <div className="item-img">
                 <img className='w-100' src={home3} alt="" />
@@ -100,7 +100,7 @@ export default function Property() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 p-1">
+          <div className="col-md-4 rounded-4 ">
             <div className="item bg-light ">
               <div className="item-img">
                 <img className='w-100' src={home4} alt="" />
@@ -120,7 +120,7 @@ export default function Property() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 p-1">
+          <div className="col-md-4 rounded-4 ">
             <div className="item bg-light ">
               <div className="item-img">
                 <img className='w-100' src={home5} alt="" />
@@ -140,7 +140,7 @@ export default function Property() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 p-1">
+          <div className="col-md-4 rounded-4 ">
             <div className="item bg-light ">
               <div className="item-img">
                 <img className='w-100' src={home6} alt="" />
@@ -160,7 +160,7 @@ export default function Property() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 p-1">
+          <div className="col-md-4 rounded-4 ">
             <div className="item bg-light ">
               <div className="item-img">
                 <img className='w-100' src={home7} alt="" />
@@ -180,7 +180,7 @@ export default function Property() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 p-1">
+          <div className="col-md-4 rounded-4 ">
             <div className="item bg-light ">
               <div className="item-img">
                 <img className='w-100' src={home8} alt="" />
@@ -200,7 +200,7 @@ export default function Property() {
               </div>
             </div>
           </div>
-          <div className="col-md-4 p-1">
+          <div className="col-md-4 rounded-4 ">
             <div className="item bg-light ">
               <div className="item-img">
                 <img className='w-100' src={home9} alt="" />

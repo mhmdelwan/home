@@ -39,7 +39,7 @@ const RevenueChart = () => {
         display: true,
         // text: 'Total Revenue',
         font: {
-          size: 20,
+          size: 10,
         },
       },
     },
@@ -64,8 +64,8 @@ const RevenueChart = () => {
 
   return (
     <div style={{ width: '100%',  }}>
-      <h2>Total Revenue</h2>
-      <h3 style={{ fontSize: '24px', fontWeight: 'bold' }}>$236,535</h3>
+      <h3>Total Revenue</h3>
+      <h3 style={{ fontSize: '20px', fontWeight: 'bold' }}>$236,535</h3>
       <p style={{ fontSize: '14px', color: '#6c757d' }}>0.8% than last day</p>
       <Bar data={data} options={options} />
     </div>

@@ -1,18 +1,20 @@
-.property
-{
-    /* background-color: aqua; */
+/* .property {
     width: 80%;
     margin: auto;
     margin-left: 300px;
+} */
+
+.property {
+    width: 82%;
+    margin-left: auto;
+    padding: 10px;
 }
 
-.property .row input::placeholder
-{
+.property .row input::placeholder {
     padding-left: 30px;
 }
 
-.item button
-{
+.item button {
     border: none;
     background-color: transparent;
     color: #6C63FF;
@@ -20,8 +22,23 @@
     font-weight: 500;
 }
 
-.item h5
-{
+.item h5 {
     color: #6C63FF;
     margin-top: 10px;
+}
+
+.property .items .item {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.275);
+    background-color: white;
+    margin: 10px;
+}
+
+.property .items .item h4 {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.property .items .item img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
