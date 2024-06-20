@@ -1,7 +1,7 @@
 import React from 'react'
 import './Users.css'
 import { NavLink, Outlet } from 'react-router-dom'
-// import AddUser from '../AddUser/AddUser'
+
 import Table from '../Table/Table'
 
 export default function Users() {
@@ -46,7 +46,7 @@ export default function Users() {
         </div>
         
         <Table/>
-        <Outlet></Outlet>
+        
         
         </div>
         

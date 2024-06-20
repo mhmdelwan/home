@@ -13,9 +13,9 @@ let routers = createBrowserRouter([
   {path:'/' , element:<Layout /> , children:[
     {index:true , element:<Home />},
     {path:'property' , element:<Property />},
-    {path:'users' , element:<Users />, children:[
-      {path:'addUser', element:<AddUser />}
-    ]},
+    {path:'users' , element:<Users />}, 
+    {path:'addUser', element:<AddUser />},
+      
     {path:'*' , element:<NotFound />},
   ]}
 ])
