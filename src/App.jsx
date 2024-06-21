@@ -8,6 +8,7 @@ import NotFound from './Components/NotFound/NotFound';
 import Property from './Components/Property/Property';
 import Users from './Components/Users/Users';
 import AddUser from './Components/AddUser/AddUser';
+import Edit from './Components/Edit/Edit';
 
 let routers = createBrowserRouter([
   {path:'/' , element:<Layout /> , children:[
@@ -15,6 +16,7 @@ let routers = createBrowserRouter([
     {path:'property' , element:<Property />},
     {path:'users' , element:<Users />}, 
     {path:'addUser', element:<AddUser />},
+    {path:'edit', element:<Edit />},
       
     {path:'*' , element:<NotFound />},
   ]}

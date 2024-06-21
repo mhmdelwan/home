@@ -1,4 +1,6 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+
 import './Property.css'
 import home1 from '../../Images/home1.png'
 import home2 from '../../Images/home2.png'
@@ -56,7 +58,15 @@ export default function Property() {
                       <p>Barcelona iv.</p>
                     </div>
                     <div className="edit">
-                      <button>Edit</button>
+                      <button>
+                      <NavLink
+                to="/edit"
+                className=" menu-link text-decoration-none"
+              >
+                
+                <span className="menu-link-text text-black">Edit</span>
+              </NavLink>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -75,7 +85,13 @@ export default function Property() {
                       <p>Barcelona i.</p>
                     </div>
                     <div className="edit">
-                      <button>Edit</button>
+                      <button><NavLink
+                to="/edit"
+                className=" menu-link text-decoration-none"
+              >
+                
+                <span className="menu-link-text text-black">Edit</span>
+              </NavLink></button>
                     </div>
                   </div>
                 </div>
@@ -94,7 +110,13 @@ export default function Property() {
                       <p>Madrid iii.</p>
                     </div>
                     <div className="edit">
-                      <button>Edit</button>
+                      <button><NavLink
+                to="/edit"
+                className=" menu-link text-decoration-none"
+              >
+                
+                <span className="menu-link-text text-black">Edit</span>
+              </NavLink></button>
                     </div>
                   </div>
                 </div>
@@ -113,7 +135,13 @@ export default function Property() {
                       <p>Barcelona iv.</p>
                     </div>
                     <div className="edit">
-                      <button>Edit</button>
+                      <button><NavLink
+                to="/edit"
+                className=" menu-link text-decoration-none"
+              >
+                
+                <span className="menu-link-text text-black">Edit</span>
+              </NavLink></button>
                     </div>
                   </div>
                 </div>
@@ -132,7 +160,13 @@ export default function Property() {
                       <p>Barcelona iv.</p>
                     </div>
                     <div className="edit">
-                      <button>Edit</button>
+                      <button><NavLink
+                to="/edit"
+                className=" menu-link text-decoration-none"
+              >
+                
+                <span className="menu-link-text text-black">Edit</span>
+              </NavLink></button>
                     </div>
                   </div>
                 </div>
@@ -151,7 +185,13 @@ export default function Property() {
                       <p>Barcelona iv.</p>
                     </div>
                     <div className="edit">
-                      <button>Edit</button>
+                      <button><NavLink
+                to="/edit"
+                className=" menu-link text-decoration-none"
+              >
+                
+                <span className="menu-link-text text-black">Edit</span>
+              </NavLink></button>
                     </div>
                   </div>
                 </div>
@@ -170,7 +210,13 @@ export default function Property() {
                       <p>Barcelona iv.</p>
                     </div>
                     <div className="edit">
-                      <button>Edit</button>
+                      <button><NavLink
+                to="/edit"
+                className=" menu-link text-decoration-none"
+              >
+                
+                <span className="menu-link-text text-black">Edit</span>
+              </NavLink></button>
                     </div>
                   </div>
                 </div>
@@ -189,7 +235,13 @@ export default function Property() {
                       <p>Barcelona iv.</p>
                     </div>
                     <div className="edit">
-                      <button>Edit</button>
+                      <button><NavLink
+                to="/edit"
+                className=" menu-link text-decoration-none"
+              >
+                
+                <span className="menu-link-text text-black">Edit</span>
+              </NavLink></button>
                     </div>
                   </div>
                 </div>
@@ -208,7 +260,13 @@ export default function Property() {
                       <p>Barcelona iv.</p>
                     </div>
                     <div className="edit">
-                      <button>Edit</button>
+                      <button><NavLink
+                to="/edit"
+                className=" menu-link text-decoration-none"
+              >
+                
+                <span className="menu-link-text text-black">Edit</span>
+              </NavLink></button>
                     </div>
                   </div>
                 </div>
