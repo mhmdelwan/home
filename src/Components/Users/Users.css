@@ -1,9 +1,3 @@
-.users {
-    width: 82%;
-    margin-left: auto;
-    padding: 10px;
-}
-
 .users input {
     background-color: #f4f4f4;
 }
@@ -12,16 +6,12 @@
     padding-left: 30px;
 }
 
-.users i {
-    margin-top: 12px;
-}
-
 .btn button {
-    padding: 10px 20px;
+    padding: 4px 20px;
     border: none;
     letter-spacing: 1px;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 17px;
+    font-weight: 600;
     border-radius: 5px;
 }
 
@@ -30,16 +20,10 @@
 }
 
 .dashboard {
-    /* background-color: #f4f4f4; */
-    border-radius: 5px;
+    border-radius: 30px;
 }
 
-.addUser {
+.addUserBtn {
     background-color: #6C63FF;
     border-radius: 5px;
-}
-
-.addUser .menu-link-text {
-    letter-spacing: 1px;
-    font-weight: 700;
 }

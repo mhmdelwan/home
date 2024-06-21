@@ -1,7 +1,27 @@
-.home {
+.home,
+.property,
+.users,
+.addUser {
     width: 82%;
-    margin-left: auto;
+    margin-left: 17.5%;
     padding: 10px;
+}
+
+.profile h4 {
+    font-size: 15px;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.profile p {
+    font-size: 13px;
+}
+
+.mainBg {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.104);
+    padding-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(246, 246, 246, 0.568);
 }
 
 

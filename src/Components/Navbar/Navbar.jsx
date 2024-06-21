@@ -4,7 +4,7 @@ import {  NavLink } from 'react-router-dom'
 import logo from '../../Images/logo.jpg'
 
 export default function Navbar() {
-  return (
+  return (<>
     <div className='sidebar'>
         <div className="logo">
           <img src={logo} alt="" />
@@ -82,5 +82,6 @@ export default function Navbar() {
           </div>
         </div>
     </div>
+    </>
   )
 }
