@@ -41,7 +41,7 @@ export default function Property() {
       </div>
 
       <div className="mainBg">
-        <h2 className='ms-4'>Property List</h2>
+        <h2 className="ms-4">Property List</h2>
 
         <div className="items p-3">
           <div className="row g-3">
@@ -57,15 +57,9 @@ export default function Property() {
                       <h5>320 000</h5>
                       <p>Barcelona iv.</p>
                     </div>
-                    <div className="edit">
+                    <div className='editBtn'>
                       <button>
-                      <NavLink
-                to="/edit"
-                className=" menu-link text-decoration-none"
-              >
-                
-                <span className="menu-link-text text-black">Edit</span>
-              </NavLink>
+                        <NavLink to="/edit">Edit</NavLink>
                       </button>
                     </div>
                   </div>
@@ -84,14 +78,10 @@ export default function Property() {
                       <h5>380 000</h5>
                       <p>Barcelona i.</p>
                     </div>
-                    <div className="edit">
-                      <button><NavLink
-                to="/edit"
-                className=" menu-link text-decoration-none"
-              >
-                
-                <span className="menu-link-text text-black">Edit</span>
-              </NavLink></button>
+                    <div className='editBtn' >
+                      <button>
+                        <NavLink to="/edit">Edit</NavLink>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -109,14 +99,10 @@ export default function Property() {
                       <h5>270 000</h5>
                       <p>Madrid iii.</p>
                     </div>
-                    <div className="edit">
-                      <button><NavLink
-                to="/edit"
-                className=" menu-link text-decoration-none"
-              >
-                
-                <span className="menu-link-text text-black">Edit</span>
-              </NavLink></button>
+                    <div className='editBtn' >
+                      <button>
+                        <NavLink to="/edit">Edit</NavLink>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -134,14 +120,10 @@ export default function Property() {
                       <h5>320 000</h5>
                       <p>Barcelona iv.</p>
                     </div>
-                    <div className="edit">
-                      <button><NavLink
-                to="/edit"
-                className=" menu-link text-decoration-none"
-              >
-                
-                <span className="menu-link-text text-black">Edit</span>
-              </NavLink></button>
+                    <div className='editBtn' >
+                      <button>
+                        <NavLink to="/edit">Edit</NavLink>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -159,14 +141,10 @@ export default function Property() {
                       <h5>320 000</h5>
                       <p>Barcelona iv.</p>
                     </div>
-                    <div className="edit">
-                      <button><NavLink
-                to="/edit"
-                className=" menu-link text-decoration-none"
-              >
-                
-                <span className="menu-link-text text-black">Edit</span>
-              </NavLink></button>
+                    <div className='editBtn' >
+                      <button>
+                        <NavLink to="/edit">Edit</NavLink>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -184,14 +162,10 @@ export default function Property() {
                       <h5>320 000</h5>
                       <p>Barcelona iv.</p>
                     </div>
-                    <div className="edit">
-                      <button><NavLink
-                to="/edit"
-                className=" menu-link text-decoration-none"
-              >
-                
-                <span className="menu-link-text text-black">Edit</span>
-              </NavLink></button>
+                    <div className='editBtn' >
+                      <button>
+                        <NavLink to="/edit">Edit</NavLink>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -209,14 +183,10 @@ export default function Property() {
                       <h5>320 000</h5>
                       <p>Barcelona iv.</p>
                     </div>
-                    <div className="edit">
-                      <button><NavLink
-                to="/edit"
-                className=" menu-link text-decoration-none"
-              >
-                
-                <span className="menu-link-text text-black">Edit</span>
-              </NavLink></button>
+                    <div className='editBtn'>
+                      <button>
+                        <NavLink to="/edit">Edit</NavLink>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -234,14 +204,10 @@ export default function Property() {
                       <h5>320 000</h5>
                       <p>Barcelona iv.</p>
                     </div>
-                    <div className="edit">
-                      <button><NavLink
-                to="/edit"
-                className=" menu-link text-decoration-none"
-              >
-                
-                <span className="menu-link-text text-black">Edit</span>
-              </NavLink></button>
+                    <div className='editBtn' >
+                      <button>
+                        <NavLink to="/edit">Edit</NavLink>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -259,14 +225,10 @@ export default function Property() {
                       <h5>320 000</h5>
                       <p>Barcelona iv.</p>
                     </div>
-                    <div className="edit">
-                      <button><NavLink
-                to="/edit"
-                className=" menu-link text-decoration-none"
-              >
-                
-                <span className="menu-link-text text-black">Edit</span>
-              </NavLink></button>
+                    <div className='editBtn' >
+                      <button>
+                        <NavLink to="/edit">Edit</NavLink>
+                      </button>
                     </div>
                   </div>
                 </div>

@@ -1,7 +1,8 @@
 .home,
 .property,
 .users,
-.addUser {
+.addUser,
+.edit {
     width: 82%;
     margin-left: 17.5%;
     padding: 10px;
