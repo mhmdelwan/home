@@ -13,11 +13,11 @@ const data = [
 const COLORS = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', '#A4DE6C'];
 
 const PropertyReferrals = () => (
-  <PieChart width={300} height={300}>
+  <PieChart width={580} height={300}>
     <Pie
       data={data}
-      cx={150}
-      cy={150}
+      cx={300}
+      cy={130}
       innerRadius={60}
       outerRadius={100}
       fill="#8884d8"

@@ -1,23 +1,26 @@
 .property-detail {
-    font-family: Arial, sans-serif;
-    width: 80%;
-    margin: auto;
-    margin-left: 300px;
-    /* margin: 0 auto; */
     padding: 20px;
-  }
-  
-  .main-image {
+}
+
+.main-image {
     position: relative;
-  }
-  
-  .main-image img {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.main-image img {
+    position: relative;
+    width: 90%;
+    height: 500px !important;
+}
+
+.main-image img {
     width: 100%;
     height: auto;
     border-radius: 8px;
-  }
-  
-  .delete-button {
+}
+
+.delete-button {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -27,23 +30,99 @@
     border-radius: 50%;
     padding: 10px;
     cursor: pointer;
-  }
-  
-  .image-gallery {
+}
+
+.image-gallery {
     display: flex;
     align-items: center;
     margin-top: 10px;
-  }
-  
-  .image-gallery img {
+    margin-left: 50%;
+    transform: translate(-44%);
+}
+
+.image-gallery img {
     width: 100px;
     height: auto;
     margin: 0 5px;
     border-radius: 8px;
-  }
-  
-  .prev-button,
-  .next-button {
-    background-color: #6A374F;
-  }
-  
+}
+
+.prev-button,
+.next-button {
+    background-color: transparent;
+    border: 0;
+}
+
+.property-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.bgColored {
+    background-color: rgba(190, 222, 255, 0.821);
+    padding: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.182);
+    border-radius: 10px;
+}
+
+.anal h2 {
+    font-size: 23px;
+    margin-top: 14px;
+}
+
+.mortgage {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 10px;
+    border: 1px solid transparent;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(141, 211, 255, 0.238);
+}
+
+.mortgage button {
+    background-color: rgb(0, 170, 255);
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    padding: 8px 20px;
+    border-color: transparent;
+}
+
+.contact-info {
+    border-radius: 10px;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    padding: 20px;
+    background-color: rgba(190, 222, 255, 0.296);
+}
+
+.contact-info img {
+    width: 130px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.contact-info button {
+    background-color: transparent;
+    border-radius: 10px;
+    font-weight: 600;
+    color: rgb(0, 119, 255);
+    padding: 0px;
+    font-weight: 700;
+    font-size: 19px;
+    border-color: transparent;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.brief-characteristics {
+    width: 70%;
+    margin-left: 15%;
+}

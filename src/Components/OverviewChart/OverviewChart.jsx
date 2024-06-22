@@ -14,7 +14,7 @@ const data = [
 
 const OverviewChart = () => (
   <LineChart
-    width={500}
+    width={580}
     height={300}
     data={data}
     margin={{ top: 5, right: 30, left: 20, bottom: 5 }}

@@ -24,16 +24,27 @@ const properties = [
 ];
 
 const PropertyList = () => (
-  <div className="property-list">
-    {properties.map((property, index) => (
-      <div key={index} className="property-card">
-        <img src={image} alt={property.name} />
-        <h3>{property.name}</h3>
-        <p>{property.location}</p>
-        <p>${property.price}</p>
-      </div>
-    ))}
-  </div>
+  <>
+    <h4 className="ms-3 mt-3">Property List</h4>
+
+    <div className="property-list mb-3">
+      {properties.map((property, index) => (
+        <div key={index} className="property-card text-start border-0">
+          <img className="rounded-4" src={image} alt={property.name} />
+          <div className="d-flex justify-content-between align-items-center">
+            <div>
+              {" "}
+              <h5 className="mt-2 ms-2">{property.name}</h5>
+              <p className="m-0 ms-2">{property.location}</p>
+            </div>
+            <div>
+              <p className="m-0 ms-2 bg-primary text-white bg-opacity-75 p-2 rounded-3 py-1">${property.price}</p>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </>
 );
 
 export default PropertyList;

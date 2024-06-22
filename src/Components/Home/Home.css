@@ -2,7 +2,9 @@
 .property,
 .users,
 .addUser,
-.edit {
+.edit,
+.anal,
+.pending {
     width: 82%;
     margin-left: 17.5%;
     padding: 10px;
@@ -51,37 +53,37 @@
 
 
 /* src/components/Dashboard.css */
+
 .dashboard {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
-  }
-  
-  .charts {
+}
+
+.charts {
     display: flex;
     justify-content: space-around;
     width: 100%;
-  }
-  
-  .property-list {
+}
+
+.property-list {
     display: flex;
     justify-content: space-around;
     width: 100%;
     margin-top: 20px;
-  }
-  
-  .property-card {
+}
+
+.property-card {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 10px;
     text-align: center;
     width: 30%;
-  }
-  
-  .property-card img {
+}
+
+.property-card img {
     width: 100%;
     height: auto;
     border-radius: 5px;
-  }
-  
+}

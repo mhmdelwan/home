@@ -43,7 +43,7 @@ export default function Users() {
       </div>
 
       <div className="mainBg">
-        <div className="dashboard px-4 pb-3">
+        <div className=" px-4 pb-3">
           <div className="userDashboard d-flex justify-content-between">
             <div className="title">
               <h3>UsersDashboard</h3>

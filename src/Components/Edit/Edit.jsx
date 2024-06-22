@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Edit.css'
 import Navbar from '../Navbar/Navbar';
+import { NavLink } from 'react-router-dom';
 
 const PropertyForm = () => {
   const [formData, setFormData] = useState({
@@ -166,13 +167,13 @@ const PropertyForm = () => {
             style={{ display: 'block', padding: '10px', boxSizing: 'border-box' }}
           />
         </div>
-        <button
+      <NavLink to="/property"> <button
           type="button"
           onClick={handleUpload}
           style={{ backgroundColor: '#6A74F7', color: '#fff', border: 'none', padding: '10px 20px', cursor: 'pointer' }}
         >
           Upload
-        </button>
+        </button></NavLink> 
       </form>
     </div>
     </div>

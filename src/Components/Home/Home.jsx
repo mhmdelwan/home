@@ -210,10 +210,16 @@ export default function Home() {
 
         <div className="dashboard">
           <div className="charts">
-            <PropertyReferrals />
-            <OverviewChart />
+            <div className="shadow rounded-3">
+              <PropertyReferrals />
+            </div>
+            <div className="shadow rounded-3 pt-5">
+              <OverviewChart />
+            </div>
           </div>
+          <div className="shadow mt-4 rounded-3">
             <PropertyList />
+          </div>
         </div>
       </div>
     </div>
