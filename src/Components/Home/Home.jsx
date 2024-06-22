@@ -6,7 +6,10 @@ import PieChart2 from '../PieChart2/PieChart2'
 import PieChart3 from '../PieChart3/PieChart3'
 import PieChart4 from '../PieChart4/PieChart4'
 import RevenueChart from '../RevenueChart/RevenueChart'
-import Three from '../Three/Three'
+import PropertyReferrals from '../PropertyReferrals/PropertyReferrals'
+import OverviewChart from '../OverviewChart/OverviewChart'
+import PropertyList from '../PropertyList/PropertyList'
+
 
 export default function Home() {
 
@@ -205,13 +208,12 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="row">
-          <div className="col-md-6 p-1">
-            <div className="doughnut m-2 bg-light py-1 px-3">
-              <h3>Doughnut</h3>
-            </div>
+        <div className="dashboard">
+          <div className="charts">
+            <PropertyReferrals />
+            <OverviewChart />
           </div>
-          <div className="col-md-6"></div>
+            <PropertyList />
         </div>
       </div>
     </div>

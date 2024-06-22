@@ -1,19 +1,9 @@
 import React, { useState } from 'react';
 import Navbar from '../Navbar/Navbar';
-import './AddUser.css'
-import { NavLink } from 'react-router-dom';
-
-
-
-
-
+import './Profile.css'
 
 
 const UserProfileForm = () => {
-
-
-  
-
   const [formData, setFormData] = useState({
     firstName: 'Mehrab',
     lastName: 'Bozorgi',
@@ -54,19 +44,7 @@ const UserProfileForm = () => {
           fontFamily: "Arial, sans-serif",
         }}
       >
-         <NavLink to="/users">
-        <button
-          style={{
-            backgroundColor: "#e0e0e0",
-            border: "none",
-            padding: "10px",
-            cursor: "pointer",
-            marginBottom: "20px",
-          }}
-        >
-          &lt; Back to all users
-        </button>
-         </NavLink>
+         
         <div
           style={{
             display: "flex",

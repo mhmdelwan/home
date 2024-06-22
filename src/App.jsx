@@ -9,6 +9,9 @@ import Property from './Components/Property/Property';
 import Users from './Components/Users/Users';
 import AddUser from './Components/AddUser/AddUser';
 import Edit from './Components/Edit/Edit';
+import Pending from './Components/Pending/Pending';
+import Profile from './Components/Profile/Profile';
+import Analytics from './Components/Analytics/Analytics';
 
 let routers = createBrowserRouter([
   {path:'/' , element:<Layout /> , children:[
@@ -17,6 +20,9 @@ let routers = createBrowserRouter([
     {path:'users' , element:<Users />}, 
     {path:'addUser', element:<AddUser />},
     {path:'edit', element:<Edit />},
+    {path:'pending', element:<Pending />},
+    {path:'profile', element:<Profile />},
+    {path:'analytics', element:<Analytics />},
       
     {path:'*' , element:<NotFound />},
   ]}

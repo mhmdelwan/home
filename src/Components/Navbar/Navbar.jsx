@@ -61,19 +61,19 @@ export default function Navbar() {
                 </NavLink>
               </li>
               <li className="menu-item list-unstyled">
-                <NavLink to="/"  className=' menu-link text-decoration-none'>
+                <NavLink to="analytics"  className=' menu-link text-decoration-none'>
                   <span className='menu-link-icon fa-solid fa-chart-simple'></span>
                   <span className='menu-link-text'>Analytics</span>
                 </NavLink>
               </li>
               <li className="menu-item list-unstyled">
-                <NavLink to="/"  className=' menu-link text-decoration-none'>
+                <NavLink to="pending"  className=' menu-link text-decoration-none'>
                   <span className='menu-link-icon fa-solid fa-clock-rotate-left'></span>
                   <span className='menu-link-text'>Pending</span>
                 </NavLink>
               </li>
               <li className="menu-item list-unstyled">
-                <NavLink to="/"  className=' menu-link text-decoration-none'>
+                <NavLink to="profile"  className=' menu-link text-decoration-none'>
                   <span className='menu-link-icon fa-solid fa-solid fa-user'></span>
                   <span className='menu-link-text'>My Profile</span>
                 </NavLink>

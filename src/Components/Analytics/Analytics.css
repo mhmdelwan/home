@@ -1,0 +1,49 @@
+.property-detail {
+    font-family: Arial, sans-serif;
+    width: 80%;
+    margin: auto;
+    margin-left: 300px;
+    /* margin: 0 auto; */
+    padding: 20px;
+  }
+  
+  .main-image {
+    position: relative;
+  }
+  
+  .main-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .delete-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .image-gallery {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .image-gallery img {
+    width: 100px;
+    height: auto;
+    margin: 0 5px;
+    border-radius: 8px;
+  }
+  
+  .prev-button,
+  .next-button {
+    background-color: #6A374F;
+  }
+  
